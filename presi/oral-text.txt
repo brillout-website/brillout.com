@@ -1,0 +1,101 @@
+----
+
+Reframe
+
+
+
+What is Reframe
+
+Framework to build web apps
+
+You define React or Vue components and Reframe takes care of everything else.
+It builds your JavaScript code,
+builds your HTML,
+renders your components to HTML and to the DOM,
+does the routing.
+
+
+
+----
+
+Why Reframe
+
+
+
+
+There are many web app frameworks out there, why build another one.
+
+I used many web frameworks before.
+  They provided me a quick start but I alwas felt constraint by the framework.
+  I never really felt free while using a framework before.
+
+Over time I got to stich libraries myself and not use web frameworks and glue things myself.
+
+But it's increasingly complex to do so.
+    Do you render your components to HTML, to the DOM?
+    Super complex to build a modern web app.
+
+One one way .. but another way...
+
+
+This got me thinking:
+Wouldn't it be great to have the best of both worlds?
+Wouldn't it be great to have a web framework that doesn't lock you in, that lets you free?
+I was up for the chalange
+
+
+
+---
+
+Is it possible to create a framework that has no lock-in?
+
+---
+
+
+
+# Reframe's answer
+
+
+
+Is it possible to create a framework that has no lock-in?
+
+ 1. Do one thing, do it well
+
+This is important because
+do-one-thing-do-it-well libraries
+are isolate,
+you can easily switch them, replace them.
+Do-one-thing-do-it-well libraries
+don't restrict you,
+the keep you free.
+As a web framework author,
+each line of code I write for a do-one-thing-do-it-well library is
+line of code of freedom for my users.
+
+ 2. Eject
+
+Who knows create react app?
+Who knows what eject is?
+
+You can gain full freedom by ejecting all of reframe.
+
+
+ 3. Minimal glue code, instead of perfect glue code
+
+CRA
+
+Instead of making things work for everyone,
+we say "
+Our philosophy is to say "if you need customzation then eject".
+We actually want you to eject.
+Eject is great.
+One way to think of eject is that it allows to dig deeper in the abstraction level.
+
+At the beginning, before ejecting anything, you start on a high level,
+all details are abstracted away for you.
+As you go and you need more customization you can eject and go a level down into details.
+
+There are some places that you may never.
+That's great,
+you should care only about the things you need.
+
