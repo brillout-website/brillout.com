@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "deploy": "git commit -am 'minor' && git push",
     "dev": "yarn serve",
     "serve": "serve ./ --listen 3000"
   },
