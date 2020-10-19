@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "yarn serve",
+    "serve": "serve ./ --listen 3000"
+  },
+  "repository": "git@github.com:brillout/brillout.github.io",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
+}
