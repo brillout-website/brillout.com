@@ -1,7 +1,7 @@
 {
   "scripts": {
     "deploy": "git add . && git commit -am 'minor' && git push",
-    "dev": "yarn serve",
+    "dev": "pnpm serve",
     "serve": "serve ./ --listen 3000"
   },
   "repository": "git@github.com:brillout/brillout.github.io",
