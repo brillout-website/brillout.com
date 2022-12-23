@@ -1,0 +1,19 @@
+h1 {
+  font-size: 72px;
+  background: linear-gradient(
+    90deg,
+    rgba(106, 9, 104, 1) 0%,
+    rgba(121, 9, 102, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
