@@ -1,0 +1,84 @@
+@import './Inter-var.css';
+
+body {
+  line-height: 1.5;
+  font-family: 'Inter';
+  max-width: 800px;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 80px;
+}
+
+h1 {
+  margin-top: 40px;
+}
+h1 + h2 {
+  margin-top: 40px;
+}
+h2 {
+  margin-top: 50px;
+}
+
+li {
+  margin: 10px;
+}
+ul {
+  margin: 16px 0px;
+  padding-left: 16px;
+}
+
+.p {
+  margin: 16px 0;
+}
+
+blockquote {
+  border-left: 5px solid #ccc;
+  border-radius: 5px;
+  margin: 0;
+  padding: 12px 18px;
+  background-color: #f0f0f0;
+  margin: 6px 0;
+}
+
+blockquote.info::before {
+  content: '\2139\FE0F';
+  font-size: 1.1em;
+  font-family: emoji;
+}
+blockquote.bad::before {
+  content: '\274C';
+  font-size: 1.15em;
+  margin-left: -10px;
+  margin-right: -3px;
+}
+blockquote.good::before {
+  content: '\2705';
+  font-size: 1.15em;
+  margin-left: -10px;
+  margin-right: -3px;
+}
+
+span.quote,
+blockquote.quote {
+  font-style: italic;
+}
+blockquote.quote {
+  padding: 10px 8px;
+}
+span.quote::before,
+span.quote::after,
+blockquote.quote::before,
+blockquote.quote::after {
+  vertical-align: middle;
+  font-size: 2em;
+  line-height: 0px;
+}
+span.quote::before,
+blockquote.quote::before {
+  content: '\201C  ';
+}
+span.quote::after,
+blockquote.quote::after {
+  content: '\201D';
+  padding-left: 2px;
+}
