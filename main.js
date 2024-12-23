@@ -7,6 +7,8 @@ form.onsubmit = (ev) => {
   text = format(text);
   if (text === "") {
     result.textContent = "Gib einen Namen ein.";
+  } else if (text === "Philipp") {
+    result.textContent = "Fast";
   } else if (text === "Paul") {
     result.textContent = "Falsch.";
   } else if (text === "Romuald") {
